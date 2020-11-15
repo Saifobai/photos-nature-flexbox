@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
+/* reset css */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Catamaran' ,sans-serif;
+}
+
+/*########### navbar########### */
+
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0px 20px;
+    border-bottom: 4px solid lightskyblue;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav div a{
+    font-size: 2.1rem;
+    font-weight: 600;
+   
+    margin:0 20px;
+    color: black;
+}
+
+nav div a:hover{
+    color: #767676;
+}
+
+#first{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#first h1{
+    font-size: 3.8rem;
+    font-weight: 400;
+}
+
+#first p{
+
+    width: 35%;
+    font-size: 1.8rem;
+    font-weight: 300;
+   color: #332f2f;
+   text-align: center;
+   margin: 1px 0 20px;
+   
+}
+
+#first div a{
+    font-size: 1.7rem;
+    color: white;
+    border-radius:18px ;
+    padding: 5px 20px;
+    margin: 0 12px;
+    
+}
+
+#first div a:nth-child(1){
+    background: rgb(78, 194, 233);
+}
+
+#first div a:nth-child(1):hover{
+    background: white;
+    color: rgb(18, 171, 233 ,0.6);
+    border: 1px solid rgb(179, 179, 248);
+
+}
+
+#first div a:nth-child(2){
+    background: rgb(236, 103, 8);
+
+}
+
+#first div a:nth-child(2):hover{
+    background:white;
+    color: orangered;
+    border: 1px solid rgb(240, 119, 21);
+}
+
+/* ####### the second part with images  */
+
+#second{
+    width: 100%;
+    background: rgb(245, 242, 239);
+    
+
+}
+
+#second .container{
+    width: 85%;
+    margin: 0 auto;
+
+    padding: 35px 20px;
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+
+#second .container div.holder {
+    flex-basis: calc(33.33% - 15px);
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 10px #cbcbcb;
+    
+}
+
+#second .container div img{
+    width: 100%;
+    height: 250px;
+}
+
+#second .container .holder:hover{
+
+    box-shadow: -5px -5px 10px #a7a7a7;
+}
+
+
+#second .container .holder h2{
+    font-size: 1.8rem;
+    color: #4e4e4e;
+    margin: 10px 10px 10px ;
+}
+
+#second .container .holder p{
+    font-size: 1.5rem;
+    margin: 2px 13px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#second .container .holder .under{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+#second .container .holder .under .bottom1 a{
+
+   font-size: 1.5rem;
+   text-align: justify;
+   color: white;
+   background: lightskyblue;
+   border-radius: 18px;
+   padding: 2px 15px ;
+   margin: 5px 5px 10px;
+
+}
+
+#second .container .holder .under .bottom2{
+    font-size: 1.6rem;
+   padding: 10px 5px;
+    margin:0 5px ;
+
+}
+
+
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(204, 204, 202);
+    border-top: 5px solid rgb(142, 188, 241);
+
+    
+  
+}
+
+footer .container-foot{
+
+    width: 90%;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+
+footer .container-foot .content-media{
+    margin: 5px 10px;
+}
+
+
+
+
+
+
+
+
+/* your code here */
