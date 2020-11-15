@@ -11,6 +11,3 @@ Single website about Flexbox
 * Please just code what you see, neither less nor more.
 * It will be responsive and the breakpoints for tablet and mobile version will be 768px and 480px.
 
-## The onlive version
-
-In order to see live version, just [click...!](https://hsnakk.github.io/flex_layout/)
